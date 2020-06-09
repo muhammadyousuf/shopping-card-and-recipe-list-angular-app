@@ -9,9 +9,14 @@ import { Recipe } from '../recipe.modal';
 export class RecipeListComponent implements OnInit {
   recipes: Recipe[] = [
     new Recipe(
-      'A test item',
-      'A test description',
-      'https://www.flickr.com/photos/soniagoyal/31479301445'
+      'A Test Recipe',
+      'This is simply a test',
+      'https://bigoven-res.cloudinary.com/image/upload/sweetandsourstickythaiboneless-3a944d.jpg'
+    ),
+    new Recipe(
+      'A Test Recipe',
+      'This is simply a test',
+      'https://bigoven-res.cloudinary.com/image/upload/t_recipe-256/white-chocolate-peppermint-bark-18.jpg'
     ),
   ];
   constructor() {}
